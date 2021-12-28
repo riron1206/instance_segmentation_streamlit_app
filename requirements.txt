@@ -1,5 +1,11 @@
 streamlit
-torch
-torchvision
 pyyaml
--e git+https://github.com/facebookresearch/detectron2.git@master#egg=detectron2
+
+# Torch
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==1.9.0+cu111
+torchvision==0.10.0+cu111
+
+# Detectron
+--find-links https://dl.fbaipublicfiles.com/detectron2/wheels/cu101/index.html
+detectron2
