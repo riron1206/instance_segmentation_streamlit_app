@@ -2,4 +2,4 @@ streamlit
 torch
 torchvision
 pyyaml
-detectron2
+-e 'git+https://github.com/facebookresearch/detectron2.git'
