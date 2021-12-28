@@ -1,6 +1,3 @@
-streamlit
-pyyaml
-
 # Torch
 --find-links https://download.pytorch.org/whl/torch_stable.html
 torch==1.9.0+cu111
@@ -9,3 +6,7 @@ torchvision==0.10.0+cu111
 # Detectron
 --find-links https://dl.fbaipublicfiles.com/detectron2/wheels/cu101/index.html
 detectron2
+
+streamlit
+pyyaml
+opencv-python-headless
